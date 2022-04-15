@@ -1,0 +1,105 @@
+<div class="container">
+
+    <div class="menu_container">
+
+        <image id="logo" src="common/images/logo.png"></image>
+
+        <div class="menu">
+            <image src="common/images/search.png"></image>
+            <image src="common/images/home.png"></image>
+            <image src="common/images/option.png"></image>
+            <image src="common/images/download.png"></image>
+            <image src="common/images/settings.png"></image>
+        </div>
+
+        <image id="user" src="common/images/user.png"></image>
+    </div>
+
+    <div class="screens">
+        <div class="s1">
+            <div class="top">
+                <image src="common/images/inputs.png"></image>
+                <image src="common/images/wifi.png"></image>
+                <image src="common/images/notification.png"></image>
+                <text>{{ time_h_0 }}{{ time_h_1 }}:{{ time_m_0 }}{{ time_m_1 }} {{ time_period }}</text>
+            </div>
+
+            <div class="bottom">
+                <image id="item1" src="common/images/Poster_1.png"></image>
+                <image id="item2" src="common/images/Poster_2.png"></image>
+                <image id="item3" src="common/images/Poster_3.png"></image>
+                <image id="item4" src="common/images/Poster_4.png"></image>
+                <image id="item5" src="common/images/Poster_5.png"></image>
+                <image id="item6" src="common/images/Poster_6.png"></image>
+            </div>
+        </div>
+
+        <div class="s2">
+            <image src="common/images/hotstar.png"></image>
+            <image src="common/images/netflix.png"></image>
+            <image src="common/images/prime.png"></image>
+            <image src="common/images/sonyliv.png"></image>
+            <image src="common/images/zee5.png"></image>
+            <image src="common/images/youtube.png"></image>
+        </div>
+
+        <div class="head">
+            <div class="tex">
+                <text id="select">Movies</text>
+                <text>TV Shows</text>
+                <text>Series</text>
+                <text>Sports</text>
+                <text>Kids</text>
+                <text>News</text>
+            </div>
+        </div>
+
+        <div class="sec1">
+            <div class="sec1_title">
+                <text>Action Movies</text>
+            </div>
+            <div class="slides">
+                <image src="common/images/action_poster_1.png"></image>
+                <image src="common/images/action_poster_2.png"></image>
+                <image src="common/images/action_poster_3.png"></image>
+                <image src="common/images/action_poster_4.png"></image>
+                <image src="common/images/action_poster_5.png"></image>
+            </div>
+        </div>
+
+        <div class="sec1">
+            <div class="sec1_title">
+                <text>Animated Movies</text>
+            </div>
+            <div class="slides">
+                <image src="common/images/animate_poster_1.png"></image>
+                <image src="common/images/animate_poster_2.png"></image>
+                <image src="common/images/animate_poster_3.png"></image>
+                <image src="common/images/animate_poster_4.png"></image>
+                <image src="common/images/animate_poster_5.png"></image>
+            </div>
+        </div>
+
+    </div>
+
+
+<!--    <text> HEllo</text>
+    <div class="col1">
+        <text>1</text>
+    </div>
+    <div class="col2">
+        <text>2</text>
+    </div>
+    <div class="col3">
+        <text>3</text>
+    </div>
+    <div class="col4">
+        <text>4</text>
+    </div>
+    <div class="col5">
+        <text>5</text>
+    </div>
+    -->
+
+
+</div>
