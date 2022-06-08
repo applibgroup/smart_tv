@@ -27,17 +27,6 @@
     "colorMode": "light"
    },
    {
-    "id": "MatePadPro",
-    "deviceType": "tablet",
-    "width": 2560,
-    "height": 1600,
-    "shape": "rect",
-    "dpi": 400,
-    "orientation": "landscape",
-    "language": "zh_CN",
-    "colorMode": "light"
-   },
-   {
     "id": "TV",
     "deviceType": "tv",
     "width": 1920,
@@ -46,28 +35,15 @@
     "dpi": 320,
     "orientation": "landscape",
     "language": "zh_CN",
-    "colorMode": "light"
-   },
-   {
-    "id": "Watch3",
-    "deviceType": "wearable",
-    "width": 466,
-    "height": 466,
-    "shape": "circle",
-    "dpi": 320,
-    "orientation": "landscape",
-    "language": "zh_CN",
-    "colorMode": "light"
+    "colorMode": "dark"
    }
   ],
   "runningProfileList": [
    "TV"
   ],
   "availableProfileList": [
-   "Watch3",
-   "P40",
    "MateX2",
-   "MatePadPro"
+   "P40"
   ]
  }
 }

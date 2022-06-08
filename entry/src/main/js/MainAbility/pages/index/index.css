@@ -1,0 +1,265 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #151515;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+.container .menu_container {
+    margin:20fp;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #868686;
+    border-radius: 10fp;
+}
+
+.container .menu_container .menu image
+{
+    height: 20fp;
+    width: 20fp;
+}
+
+.container .menu_container image {
+    height: 30fp;
+    width: 30fp;
+    margin: 10fp;
+}
+#myvideo
+{
+    z-index: -1000;
+    position: absolute;
+}
+.container .screens
+{
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+.container .screens .s1
+{
+    display: flex;
+    flex-direction: column;
+    background-image: url("common/images/video_1.png");
+    width: 100%;
+    height: 350fp;
+    top: 0;
+}
+
+.container .menu_container #logo
+{
+    height: 20fp;
+    width: 50fp;
+}
+
+.container .menu_container #user
+{
+    height: 30fp;
+    width: 30fp;
+}
+
+.container .screens .s1 .top
+{
+    justify-content: flex-end;
+    right: 0fp;
+    top: 0fp;
+    position: absolute;
+}
+
+.container .screens .s1 .top image
+{
+    height: 30fp;
+    width: 30fp;
+}
+
+.container .screens .s1 .top text
+{
+    font-size: 20fp;
+}
+.container .screens .s1 .bottom
+{
+    margin-top: 20fp;
+    position: absolute;
+}
+.container .screens .s1 .bottom image
+{
+    height: 250fp;
+    width: 200fp;
+    margin: 10fp;
+}
+
+.container .screens .s1 .bottom #item2
+{
+    height: 200fp;
+    width: 150fp;
+    margin-top: 30fp;
+}
+
+.container .screens .s1 .bottom #item3
+{
+    height: 180fp;
+    width: 130fp;
+    margin-top: 40fp;
+}
+
+.container .screens .s1 .bottom #item4
+{
+    height: 160fp;
+    width: 120fp;
+    margin-top: 50fp;
+}
+
+.container .screens .s1 .bottom #item5
+{
+    height: 140fp;
+    width: 100fp;
+    margin-top: 60fp;
+}
+
+.container .screens .s1 .bottom #item6
+{
+    height: 120fp;
+    width: 80fp;
+    margin-top: 70fp;
+}
+
+.container .screens .s2
+{
+    margin-top: 20fp;
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.container .screens .s2 image
+{
+    margin-top: 10fp;
+    margin: 10fp;
+    height: 80fp;
+    width: 160fp;
+}
+
+.head
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.head text
+{
+    font-family: Poppins;
+    align-items: center;
+    font-size: 20fp;
+    margin: 10fp;
+    color: #868686;
+}
+
+.head #select
+{
+    color:#fff;
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1 .sec1_title text
+{
+    font-size: 20fp;
+}
+
+.sec1 .slides
+{
+    overflow: scroll;
+}
+.sec1 .slides image
+{
+    height: 100fp;
+    width: 150fp;
+    margin: 10fp;
+}
+
+/* xxx.css */
+.tab-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tabs {
+    width: 100%;
+}
+.tabcontent {
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+}
+.item-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.item-title {
+    font-size: 30px;
+}
+.tab-bar {
+    margin: 10px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+}
+.tabcontent {
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+}
+.tab-bar .txt
+{
+    width: 100%;
+    font-size: 15px;
+}
+
+@media screen and (device-type: tablet) and (orientation: landscape) {
+    .title {
+        font-size: 100fp;
+    }
+}
+
+
+@media screen and (device-type: wearable) {
+    .title {
+        font-size: 28fp;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (device-type: tv) {
+    .container {
+        background-image: url("/common/images/Wallpaper.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .title {
+        font-size: 100fp;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (device-type: phone) and (orientation: landscape) {
+    .title {
+        font-size: 60fp;
+    }
+}

@@ -1,7 +1,7 @@
 {
   "app": {
-    "bundleName": "com.hmos.app.smarttvnew1",
-    "vendor": "hmos",
+    "vendor": "example",
+    "bundleName": "com.hmos.app.smart_new_tv",
     "version": {
       "code": 1000000,
       "name": "1.0.0"
@@ -9,21 +9,10 @@
   },
   "deviceConfig": {},
   "module": {
-    "package": "com.hmos.app.smarttvnew1",
-    "name": ".MyApplication",
-    "mainAbility": "com.hmos.app.smarttvnew1.MainAbility",
+    "mainAbility": ".MainAbility",
     "deviceType": [
-      "phone",
-      "tablet",
-      "tv",
-      "wearable"
+      "tv"
     ],
-    "distro": {
-      "deliveryWithInstall": true,
-      "moduleName": "entry",
-      "moduleType": "entry",
-      "installationFree": false
-    },
     "abilities": [
       {
         "skills": [
@@ -36,24 +25,37 @@
             ]
           }
         ],
+        "orientation": "unspecified",
         "visible": true,
-        "name": "com.hmos.app.smarttvnew1.MainAbility",
+        "srcPath": "MainAbility",
+        "name": ".MainAbility",
+        "srcLanguage": "js",
         "icon": "$media:icon",
-        "description": "$string:mainability_description",
-        "label": "$string:entry_MainAbility",
+        "description": "$string:MainAbility_desc",
+        "formsEnabled": false,
+        "label": "$string:MainAbility_label",
         "type": "page",
         "launchType": "standard"
       }
     ],
+    "distro": {
+      "moduleType": "entry",
+      "installationFree": false,
+      "deliveryWithInstall": true,
+      "moduleName": "entry"
+    },
+    "package": "com.example.entry",
+    "srcPath": "",
+    "name": ".entry",
     "js": [
       {
         "pages": [
           "pages/index/index"
         ],
-        "name": "default",
+        "name": ".MainAbility",
         "window": {
           "designWidth": 720,
-          "autoDesignWidth": true
+          "autoDesignWidth": false
         }
       }
     ]

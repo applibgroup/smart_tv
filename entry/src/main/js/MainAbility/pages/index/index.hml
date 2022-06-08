@@ -1,0 +1,122 @@
+<div class="container">
+
+    <div class="menu_container">
+
+        <image id="logo" src="common/images/logo.png"></image>
+
+        <div class="menu">
+            <image src="common/images/search.png"></image>
+            <image src="common/images/home.png"></image>
+            <image src="common/images/option.png"></image>
+            <image src="common/images/download.png"></image>
+            <image src="common/images/settings.png"></image>
+        </div>
+
+        <image id="user" src="common/images/user.png"></image>
+    </div>
+
+    <div class="screens">
+        <div class="s1">
+            <video controls="false" autoplay='true' muted='true' loop='true' id="myVideo" src="common/images/InkinWaterBackground.mp4" type="video/mp4">
+            </video>
+            <div class="top">
+                <image src="common/images/inputs.png"></image>
+                <image src="common/images/wifi.png"></image>
+                <image src="common/images/notification.png"></image>
+                <text>{{ time_h_0 }}{{ time_h_1 }}:{{ time_m_0 }}{{ time_m_1 }} {{ time_period }}</text>
+            </div>
+
+            <div class="bottom">
+                <image id="item1" src="common/images/Poster_1.png" on:click="onTap('item1')"></image>
+                <image id="item2" src="common/images/Poster_2.png" on:click="onTap('item2')"></image>
+                <image id="item3" src="common/images/Poster_3.png"></image>
+                <image id="item4" src="common/images/Poster_4.png"></image>
+                <image id="item5" src="common/images/Poster_5.png"></image>
+                <image id="item6" src="common/images/Poster_6.png"></image>
+            </div>
+        </div>
+
+        <div class="s2">
+            <image src="common/images/hotstar.png"></image>
+            <image src="common/images/netflix.png"></image>
+            <image src="common/images/prime.png"></image>
+            <image src="common/images/sonyliv.png"></image>
+            <image src="common/images/zee5.png"></image>
+            <image src="common/images/youtube.png"></image>
+        </div>
+<!--
+        <div class="head">
+            <div class="tex">
+                <text id="select">Movies</text>
+                <text>TV Shows</text>
+                <text>Series</text>
+                <text>Sports</text>
+                <text>Kids</text>
+                <text>News</text>
+            </div>
+        </div>
+-->
+    <!-- xxx.hml -->
+        <div class="tab-container">
+            <tabs class = "tabs" index="0" vertical="false" onchange="change">
+                <tab-bar class="tab-bar" mode="fixed">
+                    <text class="txt">Movies</text>
+                    <text class="txt">TV Shows</text>
+                    <text class="txt">Series</text>
+                    <text class="txt">Sports</text>
+                    <text class="txt">Kids</text>
+                    <text class="txt">News</text>
+                </tab-bar>
+                <tab-content class="tabcontent" scrollable="true">
+                    <div class="item-content" >
+                        <div class="sec1">
+                            <div class="sec1_title">
+                                <text>Action Movies</text>
+                            </div>
+                            <div class="slides">
+                                <image src="common/images/action_poster_1.png"></image>
+                                <image src="common/images/action_poster_2.png"></image>
+                                <image src="common/images/action_poster_3.png"></image>
+                                <image src="common/images/action_poster_4.png"></image>
+                                <image src="common/images/action_poster_5.png"></image>
+                            </div>
+                        </div>
+
+
+                        <div class="sec1">
+                            <div class="sec1_title">
+                                <text>Animated Movies</text>
+                            </div>
+                            <div class="slides">
+                                <image src="common/images/animate_poster_1.png"></image>
+                                <image src="common/images/animate_poster_2.png"></image>
+                                <image src="common/images/animate_poster_3.png"></image>
+                                <image src="common/images/animate_poster_4.png"></image>
+                                <image src="common/images/animate_poster_5.png"></image>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-content" >
+                        <text class="item-title">TV Shows screen</text>
+                    </div>
+                    <div class="item-content" >
+                        <text class="item-title">Series screen</text>
+                    </div>
+                    <div class="item-content" >
+                        <text class="item-title">Sports screen</text>
+                    </div>
+                    <div class="item-content" >
+                        <text class="item-title">Kids screen</text>
+                    </div>
+                    <div class="item-content" >
+                        <text class="item-title">News screen</text>
+                    </div>
+                </tab-content>
+            </tabs>
+        </div>
+
+
+
+    </div>
+
+</div>
